@@ -1,0 +1,78 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+}
+
+.catbutton2 img{
+  width: 10px;  
+  height: 10px;
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;  
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  list-style: none;
+}
+
+h1{
+  font-family: 'Work Sans', sans-serif;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+.button{
+  text-decoration: none;
+  border: 3px solid #cf72d4;
+  line-height: 25px;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #fcc2ff;
+  color: #cf72d4;
+  font-family: 'Work Sans', sans-serif;
+  padding: 0px 8px;
+}
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+  font-family: 'Work Sans', sans-serif;
+}
+
+header{
+  font-size: 0px;
+  background-color: #fcc2ff;
+  ;
+}
+
+.acatspaw img{
+  width: 50px;
+  font-size: 0px;
+}
+
+img{
+  height: 100px;
+}
+
+
+h3{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ol{
+  list-style-position: inside;
+}
+
+li{
+  font-family: 'Work Sans', sans-serif;
+}
+
+h2{
+  font-family: 'Work Sans', sans-serif;
+}

@@ -1,78 +1,202 @@
 *{
-margin: 0;
-padding: 0;
-}
-
-body{
-}
-
-.catbutton2 img{
-  width: 10px;  
-  height: 10px;
+    margin:0;
+    padding:0;
+  }
+  html{
+    scroll-behavior:smooth;
+  }
+  h3{
+    font-family: 'Gayathri', sans-serif;
+    text-align: center;
+    line-height: 70px;
+  }
+  p{
+    font-family: 'Grandstander', cursive;
+  }
+  h1{
+    font-family: 'Gayathri', sans-serif;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+    margin: 70px 20px 20px;
+  }
+  #Showcase{
+    background: url(" https://images.pexels.com/photos/3333538/pexels-photo-3333538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    overflow: hidden;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+  }
+  .orangeButton{
+    text-decoration: none;
+    border: 4px solid #db6c53;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 13px;
+    background: #e09382;
+    color: #873d00;
+    font-family: 'Gayathri', sans-serif;
+    padding: 0px 9px;
+    transition: .4s;
+  }
+  nav{
+     text-align: center;
+    margin-bottom: 17px;
+  }
+  #Showcase p{
+    color: #000000; background:rgba(255,255,255,0.7);
+    width: 69%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 27px;
+    line-height: 20px;
+  }
+  body{
+    background: linear-gradient(to left,#dac3db,#b9c9c9);
+   }
+  
+  #Showcase .orangeButton{
+    margin: 50px auto 70px;
+  }
+  .orangeButton:hover{
+   transform: scale(1.1) rotate(-4deg)
+     translateY(-4px);
+  }
+  #AboutUs{
+    text-align: center;
+  }
+  #AboutUs ul{
+    text-align: left;
+    color: #553555;
+  }
+  #AboutUs ul li{
+    list-style-type:"\1F63C";
+    margin: 13px;
+  }
+  .Info{
+  width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+     font-family: 'Gayathri', sans-serif;
+    font-size: 20px;
+  }
+  .Info + img{
+    width: 48%;
+    border-radius: 10px;
   display: inline-block;
-}
-
-a{
-  text-decoration: none;  
-  color: black;
-  font-family: 'Work Sans', sans-serif;
-  list-style: none;
-}
-
-h1{
-  font-family: 'Work Sans', sans-serif;
-  font-size: x-large;
-  text-decoration: underline;
-}
-
-.button{
-  text-decoration: none;
-  border: 3px solid #cf72d4;
-  line-height: 25px;
-  display: inline-block;
-  border-radius: 8px;
-  background-color: #fcc2ff;
-  color: #cf72d4;
-  font-family: 'Work Sans', sans-serif;
-  padding: 0px 8px;
-}
-
-p{
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-h2{
-  font-family: 'Work Sans', sans-serif;
-}
-
-header{
-  font-size: 0px;
-  background-color: #fcc2ff;
-  ;
-}
-
-.acatspaw img{
-  width: 50px;
-  font-size: 0px;
-}
-
-img{
-  height: 100px;
-}
-
-
-h3{
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-ol{
-  list-style-position: inside;
-}
-
-li{
-  font-family: 'Work Sans', sans-serif;
-}
-
-h2{
-  font-family: 'Work Sans', sans-serif;
-}
+    vertical-align: middle;
+  }
+  .Info p{
+    color: #553555;
+    margin: 7px 0px;
+  }
+  
+  #Costing p{
+    text-align: center;
+    color: #553555;
+  }
+  #Costing section{
+    vertical-align: top;
+    padding: 8px;
+   display:inline-block;
+    width: calc(20% - 20px);
+  
+  }
+  #Costing h3{
+    line-height: 25px;
+      margin: 20px 0px;
+      font-family: 'Grandstander', cursive;
+    }
+  #Costing li{
+    list-style-position: inside;
+    font-family: 'Grandstander', cursive;
+  }
+  #oldestcats img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  #oldestcats section{
+    background: rgba(255, 255, 255, 0.4);
+    width: 30%;
+      display: inline-block;
+  margin: 13px;
+    padding-bottom: 20px;
+    }
+  #oldestcats{
+    text-align:center;
+  }
+  #oldestcats a{
+   }
+  #feedback h5{
+    color: #fff;
+     font-family: 'Gayathri', sans-serif;
+    width: 450px;
+    overflow:hidden;
+    margin: 0px auto 10px; 
+    
+  }
+  #feedback{
+  background: linear-gradient(
+  to right, #c7b5f7,#f7b5d3);
+  }
+  form{
+    background: transparent;
+    width: 450px;
+    margin:auto;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  form input, textarea{
+    display:block;
+    margin: 0 auto 10px;
+    width: 400px;
+    line-height: 30px;
+    border:  2px solid #deffed;
+    outline: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+  form textarea{
+    resize: none;
+  }
+  h6{
+    color:#ebadff;
+  }
+  @media (max-width:600px) {
+    nav .orangeButton{
+      margin-bottom: 10px; 
+    }
+    .Info{
+      display: block;
+      width: 90%;
+      margin:auto;
+      
+    }
+    .Info li{
+  /*     display:inline-block; */
+    }
+    .Info+img{
+      width: 90%;
+    }
+    #Costing section{
+      width: 90%;
+      display:block;
+      margin:auto;
+    }
+    #oldestcats section{
+    background: rgba(255, 255, 255, 0.4);
+    width: 90%;
+      display: block;
+    padding-bottom: 3px;
+      margin: 20px auto;
+    }
+    #feedback h5{
+      width: 90%
+    }
+    #feedback form{
+      width: 90%;
+    }
+    #feedback input,textarea{
+      width: 100%;
+    }
+  }
